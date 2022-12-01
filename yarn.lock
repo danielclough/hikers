@@ -2170,6 +2170,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.15.4":
+  version: 7.20.6
+  resolution: "@babel/runtime@npm:7.20.6"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 42a8504db21031b1859fbc0f52d698a3d2f5ada9519eb76c6f96a7e657d8d555732a18fe71ef428a67cc9fc81ca0d3562fb7afdc70549c5fec343190cbaa9b03
+  languageName: node
+  linkType: hard
+
 "@babel/runtime@npm:^7.6.2":
   version: 7.14.6
   resolution: "@babel/runtime@npm:7.14.6"
@@ -5645,6 +5654,13 @@ __metadata:
     mime-types: ~2.1.24
     negotiator: 0.6.2
   checksum: 27fc8060ffc69481ff6719cd3ee06387d2b88381cb0ce626f087781bbd02201a645a9febc8e7e7333558354b33b1d2f922ad13560be4ec1b7ba9e76fc1c1241d
+  languageName: node
+  linkType: hard
+
+"accessible-nprogress@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "accessible-nprogress@npm:2.1.2"
+  checksum: b42d79cba0be61aa991f7bbe6490d28d9954874c1168449cd186bddd83fc7d056fcdfef915f9e1bd87812a4fd26ed454a7f2879c80c32739408e8e6284315637
   languageName: node
   linkType: hard
 
@@ -12884,6 +12900,18 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-nprogress@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "gatsby-plugin-nprogress@npm:5.2.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    accessible-nprogress: ^2.1.2
+  peerDependencies:
+    gatsby: ^5.0.0-next
+  checksum: 3178cb29d1fae76d928da7f396044161587b364447e417c2840b45c8d6403d90872487371fc41285e1eb79c0042159042b7a7487cd9ad072ddd10e3ab9536ca2
+  languageName: node
+  linkType: hard
+
 "gatsby-plugin-offline@npm:^4.11.0":
   version: 4.11.0
   resolution: "gatsby-plugin-offline@npm:4.11.0"
@@ -13537,7 +13565,7 @@ fsevents@^1.2.7:
     gatsby-plugin-manifest: ^3.11.0
     gatsby-plugin-mdx: ^2.11.0
     gatsby-plugin-netlify-cms: ^5.11.0
-    gatsby-plugin-nprogress: ^3.11.0
+    gatsby-plugin-nprogress: ^5.2.0
     gatsby-plugin-offline: ^4.11.0
     gatsby-plugin-page-creator: ^3.11.0
     gatsby-plugin-react-helmet: ^4.11.0
@@ -24412,6 +24440,13 @@ fsevents@^1.2.7:
   version: 0.11.1
   resolution: "regenerator-runtime@npm:0.11.1"
   checksum: 3c97bd2c7b2b3247e6f8e2147a002eb78c995323732dad5dc70fac8d8d0b758d0295e7015b90d3d444446ae77cbd24b9f9123ec3a77018e81d8999818301b4f4
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
